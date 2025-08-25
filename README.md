@@ -39,38 +39,35 @@ Edit
 ```bash
 git clone https://github.com/your-username/breathewise-ultra.git
 cd breathewise-ultra
-Create a virtual environment (recommended)
+```
+2. **Create a virtual environment (recommended)**
 
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
-Install dependencies
+```
+3. **Install dependencies**
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-Set up API key
+```
+3.**Set up API key**
 
 Get your free API key from OpenWeatherMap.
 
 Add it in a .env file:
 
-ini
-Copy
-Edit
-OPENWEATHER_API_KEY=your_api_key_here
-Run the app
+```ini
 
-bash
-Copy
-Edit
+OPENWEATHER_API_KEY=your_api_key_here
+```
+4.**Run the app**
+
+```bash
 streamlit run app.py
-🖼️ Screenshots
-(Add screenshots of your UI here for a professional touch!)
+```
+
 
 🔮 Roadmap
 ✅ Smart activity recommendations
